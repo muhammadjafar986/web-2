@@ -1,0 +1,49 @@
+1. Jelaskan apa yang dimaksud dengan dokumen root ?
+=  lokasi folder di sistem file server yang menyimpan file-file yang membentuk situs web.
+
+2. Pada apache web server, apakah dokumen root harus terletak dalam direktori C:\xampp\htdocs ? 
+= tidak, dokumen root tidak selalu terletak di dalam direktori C:\xampp\htdocs, bisa juga disimpan di direktory lain.
+
+3. Jelaskan apa yang dimaksud dengan perintah git : init, clone, remote, add, commit, push dan checkout ?
+= git init:
+"membuat tempat penyimpanan versi" di folder proyek.
+git clone:
+"Salin proyek dari tempat jauh (misalnya GitHub) ke komputer".
+git remote:
+"menghubungkan proyek lokalmu dengan tempat penyimpanan jauh".
+git add:
+"Tandai file yang mau disimpan perubahannya".
+git commit:
+"Simpan perubahan file dengan catatan".
+git push:
+"Kirim perubahan yang sudah disimpan ke tempat penyimpanan jauh".
+git checkout:
+"Pindah ke versi atau cabang proyek yang lain".
+
+
+4. Jelaskan perbedaan antara GitHub dan GitLab ?
+= GitHub:
+Lebih fokus ke kolaborasi kode dan komunitas.
+Populer buat proyek open source.
+Banyak integrasi pihak ketiga.
+
+GitLab:
+Lebih fokus ke DevOps (pengembangan dan operasional).
+Punya fitur CI/CD (otomatisasi alur kerja) yang lebih lengkap.
+Bisa di-host sendiri (di server).
+
+5. Apa bedanya variable user dengan variable system ?
+= Variabel User:
+- Pengaturan pribadi pengguna.
+- Bisa diubah oleh pengguna.
+Contoh: lokasi folder dokumen.
+
+Variabel System:
+- Pengaturan penting sistem.
+- Biasanya tidak bisa diubah pengguna biasa.
+Contoh: lokasi program terinstal.
+
+6. Apa persamaan variable system dengan variable constant ?
+= Penyimpanan Nilai:
+Baik variabel sistem maupun variabel konstanta sama-sama berfungsi sebagai wadah untuk menyimpan nilai. Nilai ini bisa berupa angka, teks, atau jenis data lainnya.
+Keduanya memungkinkan program atau sistem untuk mengakses dan menggunakan nilai tersebut.
